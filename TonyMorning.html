@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/tonymorning.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="shortcut icon" href="assets/images/icon.jpg">
+    <title>Tony-Sáng</title>
+    <style>img[alt="www.000webhost.com"]{display:none;}</style>
+</head>
+
+<body>
+    <style>
+        #wrapper .bg-img{
+            /* background:  url(assets/images/bg-mn.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-blend-mode: darken; */
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            object-fit: cover;
+            object-position: 50% 50%;
+        }   
+    </style>
+
+    <div id="wrapper">
+        <img src="assets/images/bg-mn.png" alt="" class="bg-img">
+        <header>
+            <div class="container justify-content-between">
+                <div id="text">
+                    <h2 contenteditable="false">Tonycoffee</h2>
+                </div>
+                <div class="toggle" onclick="toggleMenu()"></div>
+                <div class="listmenu">
+                    <nav>
+                        <ul class="menu d-flex">
+                            <li><a href="index.html"><span></span><span></span><span></span><span></span> Trang chủ</a>
+                            </li>
+                            <li><a href="ab-us.html"><span></span><span></span><span></span><span></span> Giới thiệu</a></li>
+                            <li><a href="products.html"><span></span><span></span><span></span><span></span> Sản phẩm</a></li>
+                            <li><a href="album.html"><span></span><span></span><span></span><span></span> Album</a></li>
+                            <li><a href="countdown-2022.html"
+                                    target="_blank"><span></span><span></span><span></span><span></span> 2022</a></li>
+                            <li><a href="Contact.html"><span></span><span></span><span></span><span></span> Liên hệ</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="content">
+            <div class="gallery">
+                <div class="image"><span><img src="assets/images/mn1.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn2.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn3.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn4.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn5.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn6.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn7.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn8.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn9.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn10.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn11.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn12.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn13.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn14.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn15.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn16.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn17.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn18.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn19.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn20.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn21.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn22.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn23.jpg" alt=""></span></div>
+                <div class="image"><span><img src="assets/images/mn24.jpg" alt=""></span></div>
+
+            </div>
+        </div>
+
+        <div class="preview-box">
+            <div class="details">
+              <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+              <span class="icon fas fa-times"></span>
+            </div>
+            <div class="image-box">
+              <div class="slide prev"><i class="fas fa-angle-left"></i></div>
+              <div class="slide next"><i class="fas fa-angle-right"></i></div>
+              <img src="" alt="">
+            </div>
+          </div>
+          <div class="shadow"></div>
+
+
+    </div>
+
+
+    <footer>
+		<div class="footer">
+			<div class="footer-bg">
+				<img src="assets/images/footer.jpg" alt="">
+			</div>
+			<div class="footer-content">
+				<h3>Tony coffee</h3>
+				<p>“Chúng tôi cung cấp các sản phẩm chế biến từ Cà phê. Chúng tôi kiểm soát chặt quy trình sản xuất
+					từ
+					nguyên liệu đến khâu đóng gói thành phẩm mang đến sản phẩm chất lượng cao.”</p>
+				<p >ĐỊA CHỈ</p>
+				<p>Thôn Phúc Tân, Xã Phúc Thọ, Huyện Lâm Hà, Tỉnh Lâm Đồng</p>
+
+				<ul class="socials">
+					<li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href=""><i class="fab fa-twitter"></i></a></li>
+					<li><a href=""><i class="fab fa-instagram"></i></a></li>
+					<li><a href=""><i class="fab fa-tiktok"></i></a></li>
+					<li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>Copyright @2021 DucTruong. Designed By <span>TruongDz</span></p>
+		</div>
+	</footer>
+
+
+    <style>
+		@media screen and (max-width: 1200px) {
+			.toggle {
+				background: url(assets/images/menu.png);
+				background-size: 30px;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+
+			.toggle.active {
+				background: url(assets/images/close.png);
+				background-size: 25px;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+		}
+	</style>
+
+    <script src="js-mn.js"></script>
+
+    <script>
+		function toggleMenu() {
+			const menuToggle = document.querySelector('.toggle');
+			const listmenu = document.querySelector('.listmenu');
+			menuToggle.classList.toggle('active')
+			listmenu.classList.toggle('active')
+		}
+	</script>
+</body>
+
+</html>

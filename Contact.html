@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="assets/css/contact.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/global.css">
+    <link rel="shortcut icon" href="assets/images/icon.jpg">
+    <title>Liên hệ</title>
+    <style>img[alt="www.000webhost.com"]{display:none;}</style>
+</head>
+
+<body>
+    <!-- <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/vi_VN/sdk.js#xfbml=1&version=v12.0"
+        nonce="cKU0EkbC"></script> -->
+
+
+    <style>
+        #wrapper .bg-img{
+            /* background: rgb(122, 121, 121) url(assets/images/bg-hl.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            background-attachment: fixed;
+            background-blend-mode: darken; */
+            position: absolute;
+            z-index: -1;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            object-fit: cover;
+            object-position: 50% 40%;
+        }
+    </style>
+    <div id="wrapper">
+        <img src="assets/images/bg-hl.jpg" alt="" class="bg-img">
+        <header>
+            <div class="container justify-content-between">
+                <div id="text">
+                    <h2 contenteditable="false">Tonycoffee</h2>
+                </div>
+                <div class="toggle" onclick="toggleMenu()"></div>
+                <div class="listmenu">
+                    <nav>
+                        <ul class="menu d-flex">
+                            <li><a href="index.html"><span></span><span></span><span></span><span></span> Trang chủ</a>
+                            </li>
+                            <li><a href="ab-us.html"><span></span><span></span><span></span><span></span> Giới thiệu</a></li>
+                            <li><a href="products.html"><span></span><span></span><span></span><span></span> Sản phẩm</a></li>
+                            <li><a href="album.html"><span></span><span></span><span></span><span></span> Album</a></li>
+                            <li><a href="countdown-2022.html"
+                                    target="_blank"><span></span><span></span><span></span><span></span> 2022</a></li>
+                            <li><a href="Contact.html"><span></span><span></span><span></span><span></span> Liên hệ</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <div id="content">
+            <div class="contact-infor">
+                <div><i class="fas fa-map-marker-alt"></i> Phúc Tân, Phúc Thọ, Lâm Hà, Lâm Đồng </div>
+                <div><i class="fas fa-envelope"></i> banhductruong@gmail.com</div>
+                <div><i class="fas fa-phone"></i> 0383072123</div>
+                <div><i class="fas fa-clock"></i> Mon-Sun 7:00 AM to 22:00 PM</div>
+            </div>
+            <div class="contact-form">
+                <h3>Contact us</h2>
+                    <form action="" class="contact">
+                        <input type="text" class="text-box" name="name" placeholder="Your name" required>
+                        <input type="email" name="email" class="text-box" placeholder="Your Email" required>
+                        <textarea name="massage" cols="30" rows="5" placeholder="Your Massage" required></textarea>
+                        <input type="submit" name="submit" class="send-btn" value="Send">
+                    </form>
+            </div>
+
+        </div>
+
+        <div class="position">
+            <div class="map-text">
+                <p>Vị Trí Của Chúng Tôi</p>
+            </div>
+            <div class="position-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3905.6276674203414!2d108.16593981412444!3d11.791245042867226!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31715c4ac76df7af%3A0xc181aa9590f1dfb9!2sTony%20Coffee!5e0!3m2!1svi!2s!4v1633180329644!5m2!1svi!2s"
+                    allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+
+        <!-- <div class="fb-page" data-href="https://www.facebook.com/tonycoffee.since1992" data-tabs="" data-width=""
+            data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false"
+            data-show-facepile="true">
+            <blockquote cite="https://www.facebook.com/tonycoffee.since1992" class="fb-xfbml-parse-ignore"><a
+                    href="https://www.facebook.com/tonycoffee.since1992">Tony Coffee</a></blockquote>
+        </div> -->
+    </div>
+
+
+
+    <footer>
+        <div class="footer">
+            <div class="footer-bg">
+                <img src="assets/images/footer.jpg" alt="">
+            </div>
+            <div class="footer-content">
+                <h3>Tony coffee</h3>
+                <p>“Chúng tôi cung cấp các sản phẩm chế biến từ Cà phê. Chúng tôi kiểm soát chặt quy trình sản xuất
+                    từ
+                    nguyên liệu đến khâu đóng gói thành phẩm mang đến sản phẩm chất lượng cao.”</p>
+                <p>ĐỊA CHỈ</p>
+                <p>Thôn Phúc Tân, Xã Phúc Thọ, Huyện Lâm Hà, Tỉnh Lâm Đồng</p>
+
+                <ul class="socials">
+                    <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                    <li><a href=""><i class="fab fa-instagram"></i></a></li>
+                    <li><a href=""><i class="fab fa-tiktok"></i></a></li>
+                    <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright @2021 DucTruong. Designed By <span>TruongDz</span></p>
+        </div>
+    </footer>
+
+
+
+    <style>
+        @media screen and (max-width: 800px) {
+            .toggle {
+                background: url(assets/images/menu.png);
+                background-size: 30px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+
+            .toggle.active {
+                background: url(assets/images/close.png);
+                background-size: 25px;
+                background-repeat: no-repeat;
+                background-position: center;
+            }
+        }
+    </style>
+
+    <script src="jsfile.js"></script>
+    <script>
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.toggle');
+            const listmenu = document.querySelector('.listmenu');
+            menuToggle.classList.toggle('active')
+            listmenu.classList.toggle('active')
+        }
+    </script>
+</body>
+
+</html>
